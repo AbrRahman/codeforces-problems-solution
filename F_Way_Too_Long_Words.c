@@ -5,7 +5,7 @@ int main()
     int n;
     scanf("%d",&n);
     char s[n][101];
-    for(int i=0;i<4;i++){
+    for(int i=0;i<n;i++){
         scanf("%s",&s[i]);
         int len = strlen(s[i]);
         if(len>10){
