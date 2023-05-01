@@ -14,10 +14,7 @@ int main()
         if(i<n){
             p--;
             s+=2;
-        }else if(i==n){
-          p;
-          s;
-        }else{
+        }else if(i>n){
             p++;
             s-=2;
         }
