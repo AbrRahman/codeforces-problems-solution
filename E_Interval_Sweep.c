@@ -8,9 +8,6 @@ int main()
     if(a!=0||b!=0){
         v = abs(a-b);
     }
-    // }else{
-    //     v=2;
-    // }
     if(v>=0&&v<=1){
         printf("YES");
     }else{
